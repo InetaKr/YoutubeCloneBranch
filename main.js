@@ -52,7 +52,7 @@ fetch('data.json')
     }
   });
 
-const subscriptionsDiv = document.querySelector('.subscriptions');
+  const subscriptionsDiv = document.querySelector('.subscriptions');
 
 const createSubscriptionElement = (data) => {
   const subscriptionDiv = document.createElement('div');
